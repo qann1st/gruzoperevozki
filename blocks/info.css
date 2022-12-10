@@ -9,6 +9,7 @@
   margin: 0 0 30px;
   padding: 16px 0;
   left: 0;
+  max-width: 1920px;
 }
 
 .info__lang-selector {
