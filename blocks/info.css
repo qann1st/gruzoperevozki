@@ -1,0 +1,27 @@
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #c8a35f;
+  height: 45px;
+  width: 100%;
+}
+
+.info__lang-selector {
+  display: flex;
+  flex-direction: wrap;
+  gap: 10px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.info__lang-selector_link {
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.5;
+}
+
+.info__lang-selector_link_active {
+  opacity: 1;
+}
