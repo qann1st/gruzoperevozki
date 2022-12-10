@@ -14,6 +14,9 @@
   list-style: none;
   margin: 0;
   padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }
 
 .info__lang-selector_link {
@@ -24,4 +27,20 @@
 
 .info__lang-selector_link_active {
   opacity: 1;
+}
+
+.info__number {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.info__email {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
 }

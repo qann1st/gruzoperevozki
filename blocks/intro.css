@@ -1,0 +1,13 @@
+.intro {
+
+}
+
+.intro__background {
+  background-image: url(../images/first-screen.png);
+  background-size: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 620px;
+  position: absolute;
+  left: 0;
+}
