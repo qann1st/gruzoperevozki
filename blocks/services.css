@@ -1,0 +1,131 @@
+.services {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  height: 561px;
+  position: relative;
+}
+
+.services__info {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  padding-right: 45px;
+  z-index: 1;
+}
+
+.services__info_title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin: 0 0 30px;
+  padding: 0;
+}
+
+.services__info_subtitle {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0 0 50px;
+  padding: 0;
+}
+
+.services__info_button {
+  background-color: #c8a35f;
+  border: 0;
+  width: 220px;
+  height: 55px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.services__image {
+  height: 266px;
+  z-index: 1;
+}
+
+.services__links {
+  display: flex;
+  flex-direction: column;
+  gap: 245px;
+  z-index: 1;
+}
+
+.services__links_next {
+  display: flex;
+  height: 20px;
+  gap: 30px;
+  text-decoration: none;
+  width: 161px;
+  justify-content: space-between;
+}
+
+.services__links_next_text {
+  color: #c8a35f;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.services__links_next_arrow {
+  background-image: url(../images/next.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 65px;
+  height: 20px;
+}
+
+.services__links_prev {
+  display: flex;
+  height: 20px;
+  text-decoration: none;
+  width: 161px;
+  justify-content: space-between;
+}
+
+.services__links_prev_text {
+  color: #c8a35f;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+}
+
+.services__links_prev_arrow {
+  background-image: url(../images/prev.svg);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: right;
+  width: 65px;
+  height: 20px;
+}
+
+.services__rectangle_left {
+  background-color: #393f47; 
+  width: 755px;
+  height: 561px;
+  position: absolute;
+  z-index: 0;
+  left: -400px;
+}
+
+.services__rectangle_right {
+  background-color: #393f47;
+  width: 770px;
+  height: 561px;
+  position: absolute;
+  z-index: 0;
+  right: -400px;
+}

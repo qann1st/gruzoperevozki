@@ -1,0 +1,6 @@
+.line {
+  background-color: #c8a35f;
+  width: 90px;
+  height: 6px;
+  margin: 0 0 40px;
+}
