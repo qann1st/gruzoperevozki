@@ -91,7 +91,7 @@
   text-align: center;
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .about {
     flex-direction: column;
     gap: 10px;
@@ -114,13 +114,13 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .about__rectangle {
     display: none;
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 1279px) {
   .about__list {
     padding: 0;
     align-self: center;

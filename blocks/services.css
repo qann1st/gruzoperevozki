@@ -1,12 +1,17 @@
 .services {
   display: flex;
-  align-items: center;
-  gap: 30px;
-  height: 561px;
   width: 100%;
   max-width: 1920px;
   position: relative;
   justify-content: center;
+}
+
+.services__main {
+  display: flex;
+  width: 825px;
+  height: 561px;
+  justify-content: center;
+  align-items: center;
 }
 
 .services__info {
@@ -141,7 +146,7 @@
 
 @media screen and (max-width: 1279px) {
   .services__image {
-    width: 300px;
+    width: 275px;
     height: 200px;
   }
 }
@@ -175,8 +180,9 @@
 
 @media screen and (max-width: 1023px) {
   .services__image {
-    width: 250px;
-    height: 150px;
+    position: relative;
+    width: 185px;
+    height: 130px;
   }
 }
 
@@ -213,8 +219,19 @@
 }
 
 @media screen and (max-width: 767px) {
-  .services {
+  .services__main {
     flex-direction: column;
+    gap: 50px;
+    align-self: center;
+    max-width: 550px;
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services {
     height: 800px;
     gap: 50px;
     background-color: #393f47;
@@ -236,6 +253,7 @@
 @media screen and (max-width: 767px) {
   .services__info {
     width: 100%;
+    align-self: flex-start;
   }
 }
 
@@ -255,5 +273,12 @@
 @media screen and (max-width: 767px) {
   .services__info {
     width: 90%;
+    align-self: flex-start;
+  }
+}
+
+@media screen and (max-width: 585px) {
+  .services__main {
+    width: 274px;
   }
 }
