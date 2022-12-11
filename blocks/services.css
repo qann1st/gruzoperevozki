@@ -116,7 +116,7 @@
 }
 
 .services__rectangle_left {
-  background-color: #393f47; 
+  background-color: #393f47;
   width: 755px;
   height: 561px;
   position: absolute;
@@ -131,4 +131,129 @@
   position: absolute;
   z-index: 0;
   left: 0;
+}
+
+@media screen and (max-width: 1279px) {
+  .services__info {
+    padding: 0;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .services__image {
+    width: 300px;
+    height: 200px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__info {
+    width: 250px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__info_title {
+    font-size: 25px;
+    line-height: 35px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__info_subtitle {
+    font-size: 15px;
+    line-height: 25px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__info_button {
+    width: 150px;
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__image {
+    width: 250px;
+    height: 150px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__links {
+    width: 125px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__links_next {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__links_prev {
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__links_next_arrow {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .services__links_prev_arrow {
+    width: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services {
+    flex-direction: column;
+    height: 800px;
+    gap: 50px;
+    background-color: #393f47;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__rectangle_left {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__rectangle_right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__info {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__image {
+    width: 320px;
+    height: 220px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__links {
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .services__info {
+    width: 90%;
+  }
 }

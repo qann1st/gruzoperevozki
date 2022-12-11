@@ -49,3 +49,33 @@
   font-size: 12px;
   line-height: 14px;
 }
+
+@media screen and (max-width: 1279px) {
+  .info {
+    width: 100%;
+    gap: 300px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .info {
+    width: 100%;
+    gap: 200px;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .info {
+    width: 100%;
+    gap: 5px;
+    flex-direction: column;
+    height: 40px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .info {
+    width: 100%;
+    gap: 19%;
+  }
+}

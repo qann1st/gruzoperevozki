@@ -64,3 +64,49 @@
   letter-spacing: 0.05em;
   text-transform: uppercase;
 }
+
+@media screen and (max-width: 1279px) {
+  .header {
+    max-width: 1024px;
+    width: 100%;
+    justify-content: space-around;
+  }
+}
+
+@media screen and (max-width: 638px) {
+  .header {
+    flex-wrap: wrap;
+    height: 130px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__nav_list_link {
+    font-size: 11px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__nav_list {
+    flex-wrap: wrap;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__logo {
+    width: 130px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__location_ico {
+    width: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__location_link {
+    font-size: 10px;
+    width: 35px;
+  }
+}
