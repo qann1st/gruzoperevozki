@@ -73,7 +73,7 @@
   }
 }
 
-@media screen and (max-width: 638px) {
+@media screen and (max-width: 637px) {
   .header {
     flex-wrap: wrap;
     height: 130px;
@@ -108,5 +108,11 @@
   .header__location_link {
     font-size: 10px;
     width: 35px;
+  }
+}
+
+@media screen and (max-width: 637px) {
+  .header__nav_list {
+    padding: 0;
   }
 }
