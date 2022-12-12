@@ -72,12 +72,6 @@
 }
 
 @media screen and (max-width: 1279px) {
-  .all-services__list {
-    grid-template-columns: repeat(3, 274px);
-  }
-}
-
-@media screen and (max-width: 1279px) {
   .all-services {
     width: 825px;
   }
@@ -95,7 +89,7 @@
   }
 }
 
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 660px) {
   .all-services__list {
     grid-template-columns: 274px;
   }
