@@ -8,11 +8,7 @@
 }
 
 .footer__map {
-  background-image: url(../images/maps.png);
-  background-repeat: no-repeat;
   height: 450px;
-  overflow: hidden;
-  position: absolute;
   max-width: 1920px;
   width: 100%;
   background-position: center;

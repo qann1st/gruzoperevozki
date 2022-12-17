@@ -9,3 +9,16 @@
   min-width: 320px;
   max-width: 1920px;
 }
+
+::-webkit-scrollbar {
+  background-color: rgb(59, 59, 59);
+  width: 15px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(100, 94, 94);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(112, 105, 105);
+}
